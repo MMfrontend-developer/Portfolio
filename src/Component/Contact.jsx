@@ -6,7 +6,7 @@ const Contact = () => (
       <h2 className="section-title">Contact</h2>
       <div className="contact-content">
         <div className="contact-info">
-          <p><i className="fas fa-envelope"></i> mmuhyideen124@gmail.com</p>
+          <p><i className="fas fa-envelope"></i> mmuhyideen1234@gmail.com</p>
           <p><i className="fas fa-map-marker-alt"></i> Ibadan, Nigeria</p>
         </div>
         <form className="contact-form">
