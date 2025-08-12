@@ -33,7 +33,7 @@ const Header = () => {
   const typedMessage = useTypewriter(subtitleDone ? message : '', 30);
 
 return (
-  <header
+  <header id="header"
     className="header"
     style={{
       background: 'linear-gradient(120deg, #232526 0%, #414345 100%)',

@@ -29,6 +29,9 @@ const About = () => {
       <div className="section-container">
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
+          <div className="about-image">
+            <img src="/professional profile picture.jpg" alt="Muhammad Muhyideen" />
+          </div>
           <div className="about-text about-slide-in">
             <p className="about-intro">
               <span className="about-wave">👋</span> Hi, I’m <span className="about-highlight">Muhammad!</span>
@@ -48,9 +51,7 @@ const About = () => {
               When I’m not coding, I enjoy <span className="about-highlight">Sport</span>, exploring <span className="about-highlight">new tech</span>, and sharing knowledge with others.
             </p>
           </div>
-          <div className="about-image">
-            <img src="/professional profile picture.jpg" alt="Muhammad Muhyideen" />
-          </div>
+          
         </div>
       </div>
     </section>
