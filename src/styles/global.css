@@ -1,4 +1,5 @@
 /* Base Styles */
+@import "tailwindcss";
 
 :root {
   --primary-color: #3498db;
@@ -68,8 +69,9 @@ a:hover {
 
 .section-title {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-size: 2.5rem;
+   font-weight: bold;
   color: var(--secondary-color);
 }
 
@@ -310,28 +312,57 @@ a:hover {
 }
 
 /* Skills Section */
-.skill-item {
-  margin-bottom: 1.5rem;
+.skills-section {
+  padding: 0.5rem;
 }
 
-.skill-info {
+.skills-section .skill-item {
+  margin-bottom: 1rem;
+}
+
+
+.skills-section .skill-item .skill-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* pushes them apart */
+  align-items: center;
   margin-bottom: 0.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px; /* pill shape */
+  color: #6366f1; /* indigo text */
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
-.skill-bar {
-  height: 10px;
-  background-color: var(--light-color);
-  border-radius: 5px;
+.skills-section .skill-item .skill-info .skill-name {
+  flex: 1;
+  text-align: left; /* name at start */
+}
+
+.skills-section .skill-item .skill-info .skill-percent {
+  text-align: right; /* percent at end */
+}
+
+
+.skills-section .skill-item .skill-bar {
+  height: 13px;
+  background-color: #e5e7eb; 
+  border-radius: 10px;
   overflow: hidden;
 }
 
-.skill-progress {
+.skills-section .skill-item .skill-bar .skill-progress {
   height: 100%;
-  background-color: var(--primary-color);
-  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    #6366f1,
+    #a855f7,
+    #ec4899
+  ); /* gradient from indigo to pink */
+  border-radius: 15px;
+  transition: width 1s ease-in-out;
 }
+
+
 
 /* Experience Section */
 .timeline {
@@ -439,12 +470,13 @@ a:hover {
 .form-group textarea {
   width: 100%;
   padding: 0.8rem;
-  border: 2px solid #ddd;
+  background-color: white;
+  border: 2px solid white;
   border-radius: 5px;
   font-family: inherit;
 }
 
-.form-group input,
+.form-group input:focus,
 .form-group textarea:focus {
     border-color: var(--primary-color);
     outline: none;
