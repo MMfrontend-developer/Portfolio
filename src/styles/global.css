@@ -169,26 +169,39 @@ a:hover {
 
 /* Fun wave emoji */
 .about-wave {
-  font-size: 1.7rem;
-  animation: aboutWave 1.2s infinite alternate;
+  font-size: 2rem;
+  animation: aboutWave 1.5s infinite alternate;
   display: inline-block;
   vertical-align: middle;
 }
 @keyframes aboutWave {
   0% { transform: rotate(0deg);}
-  100% { transform: rotate(20deg);}
+  100% { transform: rotate(60deg);}
 }
 
 .about-image {
   flex: 1;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: hidden;        
+  width: 300px;            
+  height: 300px;
+   position: relative;
 }
 
-
+/* Responsive image */
+.about-image img {
+  border-radius: 50%;
+   width: 300px;    
+  height: 300px;
+  padding-right: 40px;
+  object-fit: cover;
+  /* background-color: white; */
+  object-position: center center;
+  border: 5px solid var(--primary-color, #007bff);
+}
+      
 /* Fade in */
 .about-fade-in {
   opacity: 0;
@@ -233,6 +246,11 @@ a:hover {
     transform: scale(1);
   }
 }
+ 
+/* intro text */
+.about-intro, .about-outro{
+  font-size: 1.04em;
+}
 
 /* Highlighted text */
 .about-highlight {
@@ -253,21 +271,15 @@ a:hover {
   font-size: 1.1em;
   margin-bottom: 0.7em;
   opacity: 0;
+  display: flex;
+  align-items: center;
   animation: aboutFadeIn 0.7s forwards;
 }
 .about-emoji {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-right: 0.5em;
 }
 
-/* Responsive image */
-.about-image img {
-  border-radius: 50%;
-   width: 350px;      /* Make image bigger */
-  height: 350px;
-  object-fit: cover;
-  border: 5px solid var(--primary-color, #007bff);
-}
 
 /* Projects Section */
 .projects-grid {

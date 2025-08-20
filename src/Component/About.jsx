@@ -30,7 +30,7 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-image">
-            <img src="/professional profile picture.jpg" alt="Muhammad Muhyideen" />
+            <img src="/Professionalprofilepicture.png" alt="Muhammad Muhyideen"/>
           </div>
           <div className="about-text about-slide-in">
             <p className="about-intro">
@@ -42,8 +42,8 @@ const About = () => {
             </p>
             <ul className="about-facts">
               {facts.map((fact, i) => (
-                <li className="about-fact" style={{ animationDelay: `${0.3 + i * 0.2}s` }} key={i}>
-                  <span className="about-emoji">{fact.emoji}</span> {fact.text}
+                <li className="about-fact" style={{ animationDelay: `${0.3 + i * 0.3}s` }} key={i}>
+                  <span className="about-emoji">{fact.emoji}</span><span>{fact.text}</span> 
                 </li>
               ))}
             </ul>
