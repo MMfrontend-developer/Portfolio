@@ -77,7 +77,7 @@ return (
         maxWidth: 600,
         margin: '0 auto',
         color: 'white',
-         paddingTop: '3rem', // Add top padding for mobile clarity
+         paddingTop: '5rem', // Add top padding for mobile clarity
         paddingBottom: '2rem'
       }}
     >
