@@ -76,7 +76,9 @@ return (
         width: '100%',
         maxWidth: 600,
         margin: '0 auto',
-        color: 'white'
+        color: 'white',
+         paddingTop: '3rem', // Add top padding for mobile clarity
+        paddingBottom: '2rem'
       }}
     >
       {/* <div className="profile-img">
@@ -94,7 +96,7 @@ return (
             }}
           />
         </div> */}
-        <h1 style={{ fontWeight: 700, fontSize: '2.5rem', marginBottom: 8 }}>
+        <h1 style={{ fontWeight: 700, fontSize: '2.5rem', marginBottom: 8, marginTop: "1.5rem", letterSpacing: "1px", textShadow: '0 2px 8px rgba(0,0,0,0.12)' }}>
           Hi, I'm Muhammad Muhyideen
         </h1>
         <h2 style={{ color: 'white', fontWeight: 500, fontSize: '1.3rem', marginBottom: 16 }}>

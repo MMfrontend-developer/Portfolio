@@ -532,6 +532,19 @@ html {
 }
 
 /* Responsive Design */
+
+@media (max-width: 600px) {
+  .header-content {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+  }
+  .header-content h1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+
 @media (max-width: 768px) {
 main, .section-container, .header-content {
     padding-left: 4vw;
