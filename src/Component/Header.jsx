@@ -10,7 +10,7 @@ const socials = [
 
 const subtitle = "Software Developer • UI Enthusiast • Problem Solver";
 const message =
-  "I design and build modern, accessible, and impactful web experiences that delight users and drive results.\nLet's collaborate and turn your ideas into reality!";
+  "I design and build modern, web experiences.\nLet's collaborate and turn your ideas into reality!";
 
 function useTypewriter(text, speed = 40) {
   const [displayed, setDisplayed] = useState('');
@@ -81,25 +81,11 @@ return (
         paddingBottom: '2rem'
       }}
     >
-      {/* <div className="profile-img">
-        <img
-          src="/professional profile picture.jpg"
-          alt="Muhammad Muhyideen"
-            style={{
-              width: 110,
-              height: 110,
-              borderRadius: '50%',
-              objectFit: 'cover',
-              border: '3px solid #007bff',
-              marginBottom: 18,
-              boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
-            }}
-          />
-        </div> */}
+    
         <h1 style={{ fontWeight: 700, fontSize: '2.5rem', marginBottom: 8, marginTop: "1.5rem", letterSpacing: "1px", textShadow: '0 2px 8px rgba(0,0,0,0.12)' }}>
           Hi, I'm Muhammad Muhyideen
         </h1>
-        <h2 style={{ color: 'white', fontWeight: 500, fontSize: '1.3rem', marginBottom: 16 }}>
+        <h2 style={{ color: 'white', fontWeight: 500, fontSize: '1.3rem', }}>
           {typedSubtitle}
           <span className="blinking-cursor" />
         </h2>
@@ -113,7 +99,7 @@ return (
               ))
             : null}
         </p>
-        <div className="header-buttons" style={{ marginBottom: 18 }}>
+        <div className="header-buttons" >
           <a href="#contact" className="btn btn-primary" style={{ marginRight: 12 }}>
             <i className="fas fa-paper-plane" style={{ marginRight: 10 }}></i>
             Contact Me
