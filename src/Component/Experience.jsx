@@ -4,21 +4,21 @@ const experiences = [
   {
     role: 'Frontend Developer',
     company: 'Gigs-tech solution.',
-    period: '2024 - Present',
+    period: ' Sept 2024 - July 2025',
     details: [
-      'Developed and maintained web apps with React and JavaScript.',
+      'Developed and maintained web apps with Next.js, Tailwind CSS, React and JavaScript.',
       'Collaborated with designers to deliver pixel-perfect UIs.',
       'Optimized performance and accessibility across projects.'
     ]
   },
   {
-    role: 'UI Designer',
-    company: 'Tech Solutions Inc ',
-    period: '2024 - 2025',
+    role: 'Frontend Developer / UI Designer',
+    company: 'Miatos Solution',
+    period: 'March 2023 - June 2024',
     details: [
-      'Designed user interfaces for web and mobile apps.',
+      'Delivered Frontend solutions across various projects leveraging Next.js, Tailwind CSS, and React.',
       'Worked closely with developers to implement responsive designs.',
-      'Conducted user research and usability testing.'
+      'UI/UX implementation through user-centered design principles.'
     ]
   }
 ];
