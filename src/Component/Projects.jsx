@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'E-Commerce Store',
     description:
-      'A full-featured and responsive e-commerce website with product listings, shopping cart, user authentication, and payment integration.',
+      'A full-featured and responsive e-commerce website with product listings, shopping cart, user profile, and product id.',
     tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     link: 'https://shapora-store.vercel.app/',
     image: '/ecommerce.png',
